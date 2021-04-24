@@ -12,5 +12,7 @@ namespace IdentificadorAmigos.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<IdentificadorAmigos.Models.Friend> Friends { get; set; }
     }
 }
